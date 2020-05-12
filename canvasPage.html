@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link href="default.css" rel="stylesheet">
+        <script src="scripts/default.js"></script>
+        <script src="scripts/jquery-3.1.1.min.js"></script>
+        <title>Canvas Snapshooter</title>
+    </head>
+    
+<body>
+        
+        
+    <div class="video-container">
+           <h2>Canvas Snapshot Maker</h2>
+           <a href="http://ncucsprojects.com/cptr204F17/20152131/index.html">Click to go back to Landing Page</a><br>
+         <video id="myVideo" width="360" height="240" controls><br>
+              <source src="media/A Day Made of Glass.mp4" type="video/mp4">
+               Your browser does not support HTML5 video.
+         </video>
+        <br>
+        <button id="btnSnapshot">Snap Image</button><br>
+        
+        <canvas id="myCanvas" width="360" height="240">
+            Your browser does not support HTML5 video.
+        </canvas>
+    </div>  
+    
+<script>
+ $(document).ready(function ()
+{
+     $('#btnSnapshot').on('click', drawVideoFrame); 
+});    
+ </script>
+</body>
+</html>

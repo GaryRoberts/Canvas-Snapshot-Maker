@@ -1,0 +1,37 @@
+        canvas {
+               border: 1px solid black; 
+            }
+
+           body{
+             background-color: sandybrown;
+    
+             }
+            
+            .video-container{
+               text-align: center;
+            }
+            
+            button{
+                font-size:25px; 
+                color:white;
+                background-color:black;
+                text-decoration:none;  
+                padding:8px;
+                font-style: italic;
+            }
+            
+          button:hover{
+                background-color:lawngreen;
+                color:black;
+                font-weight: bold;
+            }
+
+        a {
+            color:black;
+            background-color:white;
+         }
+
+        a:hover{
+            background-color:blue;
+             color:white;
+         }
